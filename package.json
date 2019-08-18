@@ -1,0 +1,30 @@
+{
+  "name": "jsr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "s": "next "
+  },
+  "author": "Harsh Yelne",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "firebase": "^6.1.1",
+    "firebase-admin": "^8.2.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
+    "next-ga": "^2.3.4",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.8.6",
+    "react-quill": "^1.3.3",
+    "react-render-html": "^0.6.0",
+    "slate-plain-serializer": "^0.7.6",
+    "slate-react": "^0.22.4"
+  }
+}
